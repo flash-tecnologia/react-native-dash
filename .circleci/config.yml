@@ -45,12 +45,11 @@ workflows:
             - STAGING
       - build-and-publish:
           requires:
-            - lint
-            - typescript
+            - install-dependencies
           context:
             - github-publish-context
             - STAGING
           filters:
             branches:
               only:
-                - main
+                - master
