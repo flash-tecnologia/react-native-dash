@@ -32,3 +32,12 @@ local.properties
 #
 node_modules/
 npm-debug.log
+
+# yarn dependencies - not zero installs
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
