@@ -1,5 +1,5 @@
 {
-  "name": "react-native-dash",
+  "name": "@flash-tecnologia/react-native-dash",
   "version": "0.0.11",
   "description": "A <Dash /> component for react-native to draw dashed or dotted lines",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/obipawan/react-native-dash.git"
+    "url": "https://github.com/flash-tecnologia/react-native-dash.git"
   },
   "keywords": [
     "line",
